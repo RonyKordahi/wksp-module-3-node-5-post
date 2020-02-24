@@ -1,0 +1,17 @@
+<%- include("../partials/header") %>
+
+<div>
+    <form method="POST" action="/data">
+        <div>
+            <label for="toDo">Add your item:</label>
+        </div>
+        <div>
+            <input type="text" placeholder="What do you need to do?" name="toDo">
+        </div>
+        <div>
+            <button type="submit">Add it!</button>
+        </div>
+    </form>
+</div>
+
+<%- include("../partials/footer") %>
